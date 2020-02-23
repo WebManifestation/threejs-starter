@@ -6,7 +6,7 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
     open: true,
-    https: true,
+    https: false,
     port: 5000
   },
   output: {
